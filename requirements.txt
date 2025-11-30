@@ -25,3 +25,4 @@ auto-py-to-exe
 beautifulsoup4
 python-dateutil
 pywin32; sys_platform == 'win32'
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
